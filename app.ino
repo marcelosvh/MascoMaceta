@@ -117,5 +117,5 @@ void loop()
         delay(interval);
     }
     IoTHubClient_LL_DoWork(iotHubClientHandle);
-    delay(20);
+    delay(10);
 }
