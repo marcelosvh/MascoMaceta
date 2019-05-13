@@ -16,7 +16,7 @@ void initSerial()
  */
 bool readFromSerial(char * prompt, char * buf, int maxLen, int timeout)
 {
-    int timer = 0, delayTime = 1000;
+    int timer = 0, delayTime = 5000;
     String input = "";
     if(maxLen <= 0)
     {
